@@ -21,3 +21,9 @@ cd orders
 npx npm-check --update-all
 npm i
 cd ..
+
+echo "Upgrading expiration microservice.."
+cd expiration
+npx npm-check --update-all
+npm i
+cd ..
